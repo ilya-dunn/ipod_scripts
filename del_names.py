@@ -1,12 +1,12 @@
 import os
 import re
 
-root = r"C:\Users\volog\Downloads\A man rose from the dead"
+root = r"###"  #введите путь к файлу
 
 patterns = [
     r'\[.*?\]',      # удаляет всё в квадратных скобках
     r'\(.*?\)',      # удаляет всё в круглых скобках
-    # r'- '
+    # r'- '         # введите то что надо удалить
 ]
 
 for folder in os.listdir(root):
