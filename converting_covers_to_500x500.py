@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-ROOT = r"D:\Платина"  # путь к библиотеке
+ROOT = r"G:\Scrim\A man rose from the dead"  # путь к библиотеке
 SIZE = (500, 500)
 QUALITY = 92
 
